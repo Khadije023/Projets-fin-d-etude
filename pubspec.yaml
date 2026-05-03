@@ -108,17 +108,18 @@ flutter:
     - assets/videos/MSGCR.mp4
     - assets/videos/maintienttete.mov
 
-    - assets/screenchots/ambucart.jpg
+
+    - assets/screenchots/historique.jpg
     - assets/screenchots/editprof.jpg
     - assets/screenchots/homme.jpg
     - assets/screenchots/hommedr.jpg
     - assets/screenchots/inspatient.jpg
-    - assets/screenchots/langue.jpg
+    - assets/screenchots/dossier.jpg
     - assets/screenchots/profile.jpg
     - assets/screenchots/secoures.jpg
     - assets/screenchots/signaler.jpg
     - assets/screenchots/trousse.jpg
-    - assets/screenchots/vous.jpg
 
+    
 
     - assets/translations/
