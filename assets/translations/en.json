@@ -1,0 +1,923 @@
+{
+  "app_title": "First Aid",
+  "choose_language": "Choose Language",
+  "english": "English",
+  "french": "French",
+  "doctor": "Doctor",
+  "loading": "Loading...",
+  "loadingg": "Search for a case...",
+  "dashboard": "Dashboard",
+  "connect": "Login",
+  "profile": "My Profile",
+  "firstAid": "First Aid",
+  "kit": "First Aid Kit",
+  "medicalRecord": "Medical Record",
+  "helpSupport": "Help & Support",
+  "logout": "Logout",
+  "loginRequired": "Login Required",
+  "loginMessage": "You must be logged in to access this feature.",
+  "cancel": "Cancel",
+  "hello": "Hello",
+  "welcome": "Welcome",
+  "arabic": "Arabic",
+  "learnLifeSaving": "Learn life-saving actions",
+  "myFirstAidKit": "Aid Kit",
+  "manageKit": "Manage your first aid equipment",
+  "accessInfo": "Access your information",
+  "reportEmergency": "Report Emergency",
+  "askHelpQuickly": "Request help quickly",
+  "emergencyServices": "Emergency Services",
+  "samu": "EMS",
+  "police": "Police",
+  "firefighters": "Firefighters",
+  "report": "REPORT",
+  "home": "Home",
+  "map": "Map",
+  "login": "Login",
+  "medicalFolder": "Folder",
+  "Profile": "Profile",
+  "confirmCall": "Confirm Call",
+  "callMessage": "You are about to call {service} ({number}). Do you want to continue?",
+  "call": "Call",
+  "callFailed": "Unable to make the call to {number}. Please check your phone.",
+  "secours" : "Aid",
+  "etouffement_subtitle": "A simple gesture, a life breathing again.",
+  "saignement_subtitle": "Firmly compress the wound and call for help.",
+  "perte_connaissance_subtitle": "Place the victim in the recovery position.",
+  "arret_cardiaque_subtitle": "Act quickly: the heart doesn't wait.",
+  "malaise_subtitle": "When the heart is in distress, every minute counts.",
+  "plaies_subtitle": "Clean, protect, and monitor the wound’s progress.",
+  "brulures_superficielles_subtitle": "Apply the Rule of 15.",
+  "noyade_subtitle": "A child can drown in less than 30 seconds.",
+  "fracture_subtitle": "Immobilize the area and avoid any movement.",
+  "coup_de_soleil_subtitle": "Protecting your skin is also protecting your future health.",
+  "electrocution_subtitle": "Cut the power and call for emergency help immediately.",
+  "accident_voie_publique_subtitle": "Stay still unless in danger.",
+  "learn_first_aid": "Learn essential first aid actions that can save lives anytime, be the one who acts in an emergency!",
+  "no_results": "No results found.",
+  "emergency_numbers": "Emergency numbers",
+  "pompiers": "Firefighters",
+  "close": "Close",
+  "voir": "See the gestures",
+  "sav": "Save Information",
+  "ave": "Do you have any allergies?",
+  "ent": "Enter your medical history",
+  "ant": "Medical History",
+  "entM": "Enter your primary doctor's name",
+  "med": "Primary Doctor",
+  "gro": "Blood Group",
+  "EX": "Ex: A+, O-, etc.",
+  "entt": "Enter your height",
+  "tc": "Height (cm)",
+  "entp": "Enter your weight",
+  "pk": "Weight (kg)",
+  "ents": "Enter your gender",
+  "See": "Gender",
+  "Femme": "Female",
+  "Homme": "Male",
+  "dnss": "Enter your date of birth",
+  "DN": "Date of Birth",
+  "nom": "Enter your name",
+  "Nom": "Name",
+  "inf": "Information",
+  "gere": "Manage your health information",
+  "DS": "Your Medical Record",
+  "infS": "Your information is secure and accessible only by you and authorized healthcare professionals.",
+  "infSSS": "Secure Information",
+  "sv": "Save",
+  "md": "Edit",
+  "err": "Error while saving",
+  "dssave": "Medical record saved successfully",
+  "login_subtitle": "Sign in to your account",
+  "email_phone_label": "Email or phone",
+  "email_phone_hint": "Enter your email or phone",
+  "password_label": "Password",
+  "password_hint": "Enter your password",
+  "forgot_password": "Forgot password?",
+  "login_button": "Sign in",
+  "no_account": "Don't have an account?",
+  "sign_up": "Sign up",
+  "welcome_message": "Welcome, {name}!",
+  "error_prefix": "Error: {error}",
+  "general_error": "An error occurred.",
+  "correct_password": "Correct password",
+  "incorrect_password": "Incorrect password",
+  "unsupported_endpoint": "Unsupported endpoint",
+  
+  
+  "doctor_reset_password": {
+    "title": "Doctor Reset",
+    "subtitle": "Recover access to your medical account",
+    "step_indicator": "Step {} of 2",
+    "identity_verification": {
+      "title": "Identity Verification",
+      "subtitle": "Enter your information to verify your identity",
+      "email_or_phone_label": "Email or Phone",
+      "email_or_phone_hint": "doctor@example.com or +33123456789",
+      "secret_code_label": "Secret Code",
+      "secret_code_hint": "Your secret code",
+      "verify_button": "Verify",
+      "verifying": "Verifying..."
+    },
+    "new_password": {
+      "title": "New Password",
+      "subtitle": "Set your new secure password",
+      "new_name_label": "New Name (optional)",
+      "new_name_hint": "Dr. First Last",
+      "new_password_label": "New Password",
+      "new_password_hint": "Secure password",
+      "confirm_password_label": "Confirm Password",
+      "confirm_password_hint": "Confirm your password",
+      "password_requirements": "Password Requirements:",
+      "password_rules": "• At least 8 characters\n• One uppercase and lowercase letter\n• One digit and one symbol",
+      "reset_button": "Reset",
+      "resetting": "Resetting..."
+    },
+    "security_card": {
+      "title": "Enhanced Security",
+      "description": "Your medical data is protected by bank-level encryption."
+    },
+    "errors": {
+      "passwords_dont_match": "Passwords do not match.",
+      "weak_password": "Weak password: at least 8 characters, one uppercase, one lowercase, one digit, one symbol."
+    },
+    "success": {
+      "password_reset": "Password reset successfully!"
+    }
+  },
+
+
+  "doctor_login": "Doctor Login",
+  "access_professional_account": "Access your professional account",
+  "email_or_phone": "Email address or phone",
+  "email_placeholder": "doctor@example.com",
+  "password": "Password",
+  "password_placeholder": "Enter your password",
+  "register": "Register",
+  "error": "Error",
+  "error_occurred": "An error occurred.",
+
+  "welcome_doctor": "Welcome Dr. {name}!",
+  "server_connection_error": "Server connection error.",
+  "step_indicator": "Step 1/1",
+  "join_us": "Join Us",
+  "create_medical_profile": "Create your professional medical profile",
+  "full_name": "Full Name",
+  "your_name": "Your name",
+  "professional_email": "Professional Email",
+  "specialty": "Specialty",
+  "specialty_placeholder": "Cardiology, Neurology...",
+  "phone_number": "Phone Number",
+  "phone_placeholder": "Phone number",
+  "password_dots": "••••••••",
+  "authorization_code": "Authorization Code",
+  "secret_medical_code": "Secret medical code",
+  "create_account": "Create My Account",
+  "already_have_account": "Already have an account? ",
+
+  "connexion_docteur": "Doctor Login",
+  "acceder_compte_pro": "Access your professional account",
+  "email_ou_tel": "Email address or phone number",
+  "mot_de_passe": "Password",
+  "erreur": "Error",
+  "erreur_generale": "An error occurred.",
+  "connexion_reussie": "Login successful",
+  "btn_connexion": "Login",
+
+  
+  "emergency_tracking": "Emergency Tracking",
+  "emergency_accepted": "Emergency Accepted",
+  "ambulance_status": {
+    "waiting_info": "Waiting for ambulance information...",
+    "waiting_assignment": "Waiting for assignment",
+    "accepted_preparing": "Accepted, ambulance is preparing",
+    "ambulance_assigned": "Ambulance assigned",
+    "en_route_to_victim": "En route to you",
+    "arrived_on_scene": "Arrived on scene",
+    "patient_care": "Patient care",
+    "emergency_refused": "Emergency refused",
+    "emergency_cancelled": "Emergency cancelled by you"
+  },
+  "ambulance_prefix": "Ambulance: ",
+  "call_ambulance": "Call ambulance",
+  "call_ambulance_number": "Call ambulance ({})",
+  "location_disabled": "Location disabled. Please enable it.",
+  "location_permission_denied": "Location permission denied.",
+  "location_permission_forever_denied": "Location permission permanently denied. Please enable it in app settings.",
+  "patient_position_retrieved": "Patient position retrieved: {}",
+  "patient_position_error": "Error retrieving patient position: {}",
+  "websocket_connection_error": "WebSocket connection error. Attempting to reconnect...",
+  "websocket_closed": "WebSocket connection closed. Attempting to reconnect...",
+  "websocket_failed": "Initial WebSocket connection failed.",
+  "call_failed": "Unable to make call to {}",
+  "ambulance_arrived_title": "Ambulance Arrived!",
+  "ambulance_arrived_message": "Your ambulance has arrived on scene.",
+  "emergency_ended_title": "Emergency Ended!",
+  "emergency_ended_message": "The care is completed. You can now close this page.",
+  "ok": "OK",
+  "ambulance_label": "Ambulance",
+
+  
+  "signaler_urgence": {
+    "title": "Report an Emergency",
+    "description": "Please provide the information below:",
+    "confirmation_title": "Emergency report confirmation",
+    "confirmation_message": "Do you want to include your medical file with this emergency report? This can help first responders.",
+    "no": "No",
+    "yes": "Yes",
+    "urgence_type": "What is the main emergency?",
+    "select_type": "Select a type",
+    "type_required": "Emergency type required",
+    "autre_description": "Describe the emergency (Other)",
+    "autre_placeholder": "Specify the nature...",
+    "autre_required": "Description required for \"Other\"",
+    "victims_count": "How many victims are there by age category?",
+    "adults": "Adults",
+    "children": "Children",
+    "infants": "Infants",
+    "conscious_question": "Is victim conscious?",
+    "conscious_validation": "Please indicate if the victim is conscious.",
+    "breathing_question": "Is victim breathing?",
+    "breathing_validation": "Please indicate if the victim is breathing.",
+    "bleeding_question": "Is there significant bleeding in the main victim?",
+    "bleeding_validation": "Please indicate if there is significant bleeding.",
+    "image_source_title": "Choose image source",
+    "image_source_message": "Do you want to take a new photo or choose one from your gallery?",
+    "camera": "Camera",
+    "gallery": "Gallery",
+    "send_urgence": "Send emergency",
+    "status": "Status",
+    "at_least_one_victim": "Please specify at least one victim.",
+    "complete_fields": "Please complete all required fields",
+    "urgence_already_signaled": "An emergency is already reported and pending or accepted. You cannot report a new one.",
+    "urgence_sent_success": "Emergency reported successfully!",
+    "location_enable": "Please enable your location so we can retrieve you easily.",
+    "location_denied": "Location permission denied by user.",
+    "location_denied_forever": "Location permission permanently denied. Please enable it in the app settings.",
+    "invalid_gps": "Invalid GPS position (NaN or Infinity).",
+    "not_authenticated": "Error: You are not authenticated. Please log in again.",
+    "patient_id_missing": "Internal error: Patient ID missing. Please log in again.",
+    "urgence_id_missing": "Internal error: Emergency ID missing.",
+    "send_error": "Error sending",
+    "unexpected_error": "Unexpected error during sending",
+    "session_expired": "Session expired or not authenticated, cannot check emergency status.",
+    "urgence_not_yours": "This emergency does not belong to your account. Display cleared.",
+    "urgence_not_exist": "no longer exists or you do not have access to it.",
+    "urgence_refused": "Your emergency has been refused.",
+    "urgence_terminated": "Your emergency has been terminated.",
+    "no_urgence": "No emergency reported",
+    "waiting_response": "Waiting for response...",
+    "accepted_by": "Accepted by",
+    "refused_by_doctor": "Refused by doctor",
+    "terminated": "Terminated",
+    "doctor": "Doctor"
+  },
+  "urgence_types": {
+    "arret_cardiaque": "Cardiac Arrest",
+    "brulure": "Burn",
+    "etouffement": "Choking",
+    "accident_voie_publique": "Traffic Accident",
+    "perte_de_connaissance": "Loss of Consciousness",
+    "malaise": "Discomfort",
+    "noyade": "Drowning",
+    "fracture": "Fracture",
+    "electrocution": "Electrocution",
+    "autre": "Other"
+  },
+  "age_categories": {
+    "adulte": "Adult",
+    "enfant": "Child",
+    "nourrisson": "Infant"
+  },
+
+  "reset_password": {
+    "title": "Reset Password",
+    "enter_identifier": "Enter your email or phone number",
+    "enter_verification_code": "Enter verification code",
+    "create_new_password": "Create your new password",
+    "recovery_method": "Recovery method",
+    "email": "Email",
+    "phone": "Phone",
+    "email_address": "Email address",
+    "phone_number": "Phone number",
+    "email_placeholder": "example@gmail.com",
+    "send_code": "Send code",
+    "code_sent_email": "Code sent to your email",
+    "code_sent_phone": "Code sent to your phone",
+    "verification_code": "Verification code",
+    "enter_6_digit_code": "Enter the 6-digit code",
+    "verify_code": "Verify code",
+    "create_secure_password": "Create a new secure password",
+    "new_password": "New password",
+    "confirm_password": "Confirm password",
+    "reset_password_button": "Reset password",
+    "code_sent_success": "Code sent successfully.",
+    "user_not_found": "This user does not exist.",
+    "send_code_failed": "Failed to send code.",
+    "send_code_error": "Error sending code.",
+    "code_verified_success": "Code verified successfully.",
+    "incorrect_code": "Incorrect code.",
+    "verification_error": "Verification error.",
+    "password_reset_success": "Password reset successfully.",
+    "no_account_found": "No account found.",
+    "reset_error": "Reset error.",
+    "passwords_dont_match": "Passwords don't match.",
+    "password_min_length": "Password must contain at least 6 characters.",
+    "phone_exactly_8_digits": "Number must contain exactly 8 digits",
+    "phone_max_8_digits": "Number cannot exceed 8 digits",
+    "phone_only_digits": "Number must contain only digits",
+    "phone_start_with_234": "Number must start with 2, 3, or 4",
+    "email_must_end_gmail": "Email must end with @gmail.com"
+  },
+
+  "accident_page": {
+    "title": "Road Traffic Accident",
+    "warning": "⚠️ Road traffic accident: react quickly and methodically.",
+    "protect": {
+      "title": "1. Protect",
+      "step1": "Secure the area with warning triangles, hazard lights, etc.",
+      "step2": "Assess dangers such as moving vehicles, fire, etc."
+    },
+    "alert": {
+      "title": "2. Alert",
+      "step1": "Call emergency services (118 for Fire Department, 101 for Emergency Medical Services).",
+      "step2": "Provide precise information: Exact location, number of victims, type of injuries, potential dangers."
+    },
+    "rescue": {
+      "title": "3. Rescue",
+      "step1": "Unconscious victim who is breathing: Place in recovery position (PLS).",
+      "step2": "Victim who is not breathing: Start CPR and use a defibrillator if available.",
+      "step3": "Victim with severe bleeding: Compress the wound and apply a tourniquet if necessary.",
+      "step4": "Victim with trauma: Maintain head-neck-trunk alignment."
+    },
+    "reassure": {
+      "title": "4. Reassure",
+      "step1": "Speak calmly to victims to reassure them and explain what you are doing while waiting for emergency services."
+    },
+    "cpr": {
+      "title": "Cardiopulmonary Resuscitation",
+      "step1": "Chest compressions:\n- Place hands in the center of the chest.\n- Arms straight, press hard (5 cm) and fast (100 to 120/min).\n- Release after each compression.",
+      "step2": "Mouth-to-mouth:\n- Tilt the head, pinch the nose.\n- Give 2 breaths (the chest should rise).",
+      "step3": "Alternate 30 compressions / 2 breaths."
+    },
+    "pls": {
+      "title": "Recovery Position",
+      "step1": "Kneel beside the victim lying on their back.",
+      "step2": "Place the nearest arm at a right angle, palm facing up.",
+      "step3": "Bring the other arm and place the back of the hand against their cheek, on the rescuer's side.",
+      "step4": "Grab the opposite leg behind the knee and bend it.",
+      "step5": "Gently pull on the bent leg to roll the victim towards you.",
+      "step6": "Adjust so that the leg is at a right angle and the head is **stable** tilted back.",
+      "step7": "Mouth turned towards the ground to prevent choking.",
+      "step8": "Check breathing regularly.",
+      "step9": "If possible, position the victim on their left side."
+    },
+    "additional_info": {
+      "title": "Additional Information",
+      "step1": "Prevention: Follow traffic rules, stay alert and avoid unnecessary risks.",
+      "step2": "Psychological aspects: Be attentive to the emotional state of victims and witnesses, the accident can be traumatic."
+    }
+  },
+
+  
+  "cardiac_arrest": {
+    "title": "Cardiac Arrest",
+    "image_not_found": "Image not found: {}",
+    "alert_banner": "Alert: Acting quickly is essential in case of cardiac arrest. Call 101 (Emergency Medical Services) immediately and follow instructions.",
+    "protection_banner": "Protection: Ensure your safety and that of the victim before intervening. Avoid any potential danger.",
+    "adult": {
+      "title": "🧍 Adult Case",
+      "step1": "Pulmonary reaction: See steps below",
+      "step2": "Check consciousness: speak to the victim, tap shoulders.",
+      "step3": "Check breathing: tilt head back + lift chin. Observe for 10 seconds.",
+      "step4": "Alert emergency services: call 101 (EMS)",
+      "step5": "Chest compressions: 30 compressions (100-120/min).",
+      "step6": "Rescue breaths: 2 rescue breaths if trained.",
+      "step7": "Repeat until emergency services arrive."
+    },
+    "child": {
+      "title": "🧒 Child Case (1 to 8 years)",
+      "step1": "Pulmonary reaction: See steps below",
+      "step2": "Check consciousness: speak gently, tap.",
+      "step3": "Check breathing: head back, observe.",
+      "step4": "Call 101 (EMS)",
+      "step5": "5 rescue breaths then 30 compressions.",
+      "step6": "Cycle of 30 compressions + 2 rescue breaths.",
+      "step7": "Continue until emergency services arrive."
+    },
+    "infant": {
+      "title": "👶 Infant Case (< 1 year)",
+      "step1": "Pulmonary reaction: See steps below",
+      "step2": "Stimulate gently: tap the soles of feet.",
+      "step3": "Check breathing: gentle head tilt, observe.",
+      "step4": "Call emergency services (101).",
+      "step5": "5 gentle mouth-to-mouth + nose breaths.",
+      "step6": "30 compressions with 2 fingers at center of chest.",
+      "step7": "Alternate 30 compressions / 2 rescue breaths.",
+      "step8": "Continue until emergency services arrive."
+    },
+    "cpr": {
+      "title": "Cardiopulmonary Resuscitation",
+      "step1": "Chest compressions:\n- Place hands in the center of the chest.\n- Arms straight, press hard (5 cm) and fast (100 to 120/min).\n- Release after each compression.",
+      "step2": "Mouth-to-mouth:\n- Tilt the head, pinch the nose.\n- Give 2 breaths (the chest should rise).",
+      "step3": "Alternate 30 compressions / 2 breaths."
+    },
+    "aed": {
+      "title": "⚡ AED Usage",
+      "step1": "Turn on the AED and follow voice instructions.",
+      "step2": "Attach electrodes to the victim's bare chest.",
+      "step3": "Ensure no one touches the victim during analysis and shock.",
+      "step4": "Deliver shock if AED recommends it.",
+      "step5": "Resume chest compressions immediately.",
+      "step6": "Continue until emergency services arrive or victim shows signs of life."
+    },
+    "start_cpr_button": "Start CPR"
+  },
+
+  "burns": {
+    "page_title": "Superficial Burns",
+    "definition": "Definition",
+    "definition_text": "A burn corresponds to partial or total destruction of the skin. It is considered serious when its surface exceeds half the palm of the victim's hand",
+    "before_acting": "Before Acting",
+    "before_acting_step1": "Contact emergency services immediately at 101 (SAMU) and follow the instructions.",
+    "before_acting_step2": "Ensure your safety and that of the victim before intervening. Avoid any potential danger",
+    "simple_burns": "🔍 Simple Burns",
+    "simple_burns_step1": "Redness or small blister (less than half the palm).",
+    "simple_burns_step2": "Rinse abundantly with cold water (Apply the rule of 15, see rule above)",
+    "simple_burns_step3": "Do not pierce the blister.",
+    "simple_burns_step4": "Protect with a sterile bandage.",
+    "simple_burns_step5": "Consult a doctor for a child or infant.",
+    "serious_burns": "🚨 Serious Burns",
+    "serious_burns_step1": "Surface > half the palm, sensitive areas (face, hands, joints), or blackish appearance.",
+    "serious_burns_step2": "Call emergency services immediately.",
+    "serious_burns_step3": "Cool with cold water without pressure (Apply the rule of 15, see rule above)",
+    "serious_burns_step4": "Lay the victim on a clean sheet.",
+    "serious_burns_step5": "Do not tear off clothes stuck to the skin.",
+    "serious_burns_step6": "Monitor consciousness level.",
+    "rule_15_title": "📌 Rule of 15: ",
+    "rule_15_text": "15 minutes under a water jet, at 15°C (cold tap water), at 15 cm distance.",
+    "warning_message": "⚠️ Never apply fatty substances, ointments or other products to a burn without medical advice.",
+    "image_not_found": "Image not found: {}"
+  },
+"electrocution": {
+    "page_title": "Electrocution",
+    "emergency_warning": "⚠️ VITAL EMERGENCY – Never intervene without securing the area!",
+    "secure_zone": "Secure the area",
+    "secure_zone_step1": "Do not touch the victim if they are still in contact with electricity.",
+    "secure_zone_step2": "Immediately cut off the power (circuit breaker, fuse or socket).",
+    "secure_zone_step3": "Use a non-conductive object to push away the source (wood, dry cloth, plastic).",
+    "secure_zone_step4": "Make sure the area is safe before acting.",
+    "evaluate_victim": "Evaluate the victim",
+    "evaluate_victim_step1": "Check the victim's consciousness.",
+    "evaluate_victim_step2": "Check breathing (normal or not).",
+    "evaluate_victim_step3": "Look for burns (entry/exit of current).",
+    "alert_emergency": "Alert emergency services",
+    "alert_emergency_step1": "Call 101 (SAMU).",
+    "alert_emergency_step2": "Give details about the incident and the victim's condition.",
+    "first_aid": "First aid gestures",
+    "first_aid_step1": "If the victim is not breathing: start CPR (30 compressions + 2 breaths if trained).",
+    "first_aid_step2": "Cool burns with cold water for 10 minutes.",
+    "first_aid_step3": "Remove clothing not stuck to the burn.",
+    "first_aid_step4": "Protect the burn with a clean cloth or sterile bandage.",
+    "cpr": "Cardiopulmonary Resuscitation",
+    "cpr_step1": "Chest compressions:\n- Place hands in the center of the chest.\n- Arms straight, press hard (5 cm) and fast (100 to 120/min).\n- Release after each compression.",
+    "cpr_step2": "Mouth-to-mouth:\n- Tilt the head, pinch the nose.\n- Give 2 breaths (chest should rise).",
+    "cpr_step3": "Alternate 30 compressions / 2 breaths.",
+    "recovery_position": "Lateral Safety Position",
+    "recovery_position_step1": "Kneel beside the victim lying on their back.",
+    "recovery_position_step2": "Place the nearest arm at a right angle, palm facing up.",
+    "recovery_position_step3": "Bring the other arm and place the back of the hand against their cheek, rescuer side.",
+    "recovery_position_step4": "Grab the opposite leg behind the knee and bend it.",
+    "recovery_position_step5": "Gently pull the bent leg to roll the victim towards you.",
+    "recovery_position_step6": "Adjust so the leg is at a right angle and the head **stable** tilted back.",
+    "recovery_position_step7": "Mouth facing the ground to prevent choking.",
+    "recovery_position_step8": "Check breathing regularly.",
+    "recovery_position_step9": "If possible, position the victim on the left side.",
+    "monitor_victim": "Monitor the victim",
+    "monitor_victim_step1": "Stay close to the victim and reassure them.",
+    "monitor_victim_step2": "Note any changes in their condition.",
+    "monitor_victim_step3": "Only move them if they are in immediate danger.",
+    "remember": "Remember",
+    "remember_step1": "Any electrocution must be examined by a doctor.",
+    "remember_step2": "Never put your life in danger to intervene."
+  },
+  
+  "choking_title": "Choking",
+  "alert_message": "Alert: Act quickly in case of choking. Call emergency services (101 SAMU).",
+  "protection_message": "Protection: Priority to your safety for effective help.",
+  "general_info_title": "ℹ️ General Information",
+  "partial_obstruction_title": "🟡 Partial Obstruction",
+  "total_obstruction_title": "🔴 Total Obstruction",
+  "infant_case_title": "👶 Infant Case",
+  "techniques_title": " Clearance Techniques",
+  "videos_title": "🎬 Explanatory Videos",
+  
+  "general_info_step_1": "Choking is an obstruction of the airways often caused by food or an object.",
+  "general_info_step_2": "It can be partial (the person coughs) or total (they can no longer breathe, speak or cough).",
+  
+  "partial_obstruction_step_1": "Leave the person in the position where they feel most comfortable.",
+  "partial_obstruction_step_2": "Encourage them to cough forcefully.",
+  "partial_obstruction_step_3": "Do not intervene with back blows or compressions.",
+  "partial_obstruction_step_4": "Monitor breathing and call a doctor if necessary.",
+  
+  "total_obstruction_step_1": "Give 5 back blows between the shoulder blades.",
+  "total_obstruction_step_2": "If the object doesn't come out, perform 5 abdominal compressions (Heimlich maneuver).",
+  "total_obstruction_step_3": "Alternate back blows and compressions until clearance or loss of consciousness.",
+  "total_obstruction_step_4": "If the person loses consciousness, alert emergency services and begin cardiopulmonary resuscitation.",
+  
+  "infant_step_1": "Place the infant face down on your forearm, head lower than the body.",
+  "infant_step_2": "Give 5 back blows.",
+  "infant_step_3": "Turn the infant over and perform 5 chest compressions.",
+  "infant_step_4": "Repeat the cycle if necessary.",
+  "infant_step_5": "Never perform the Heimlich maneuver on an infant.",
+  
+  "technique_step_1": "➡️ Clearance by back blows:\n- Give 5 blows between the shoulder blades with the flat of an open hand.\n- In children, tilt the head lower than the body (for example, over a knee).\n- In infants, place them face down on the forearm, head low, and support the head without pressing on the throat.",
+  "technique_step_2": "➡️ Clearance by abdominal compressions:\n- Stand behind the victim.\n- Pass your arms under theirs, place a fist just above the navel.\n- Grasp the fist with the other hand.\n- Pull sharply towards yourself and upward.\n- Same for adults and children, never for infants.",
+  "technique_step_3": "➡️ Clearance by chest compressions:\n- To be performed on infants or if abdominal compressions are impossible.\n- Place the victim on their back on a hard surface.\n- Kneel down and perform 5 chest compressions.\n- If unconscious: begin CPR with 30 compressions at 100–120/min.",
+  
+  "show_video_adult": "Show video: Adult",
+  "hide_video_adult": "Hide video: Adult",
+  "show_video_infant": "Show video: Infant",
+  "hide_video_infant": "Hide video: Infant",
+  
+  "final_warning": "⚠️ If the obstruction persists or if the victim loses consciousness, call emergency services immediately (101 SAMU)!",
+  "image_not_found": "Image not found:",
+
+  "fracture_title": "Fracture",
+  "head_maintenance": {
+    "title": "Head Immobilization",
+    "steps": {
+      "step1": "Position yourself in line with the victim",
+      "step2": "Knees on the ground, stable elbows",
+      "step3": "Hold the head with both hands",
+      "step4": "Avoid any neck movement"
+    }
+  },
+  "video_buttons": {
+    "show_video": "Watch video: Head Immobilization",
+    "hide_video": "Hide video: Head Immobilization"
+  },
+  "advice_cards": {
+    "stay_calm": {
+      "title": "Stay calm and assess the situation",
+      "text": "Keep your calm. Check if the victim is conscious and avoid moving the injured limb."
+    },
+    "alert_protection": {
+      "title": "Alert and Protection",
+      "text": "Protect yourself, secure the area if necessary, then immediately contact emergency services (Emergency: 911)."
+    },
+    "stabilize_head": {
+      "title": "Stabilize the head if cervical trauma",
+      "text": "Stabilize the victim's head in case of cervical trauma (See: Head Immobilization)."
+    },
+    "immobilize_area": {
+      "title": "Immobilize the affected area",
+      "text": "Use a board, magazine, or any other rigid object to stabilize the limb. Do not attempt to reset the bone."
+    },
+    "apply_cold": {
+      "title": "Apply cold",
+      "text": "Apply ice or a cold cloth for 20 minutes to limit swelling. Take a break before repeating."
+    },
+    "no_massage": {
+      "title": "Do not massage or heat",
+      "text": "Do not apply massage or heat for the first 48 hours, as this could worsen the injury."
+    },
+    "consult_professional": {
+      "title": "Consult a healthcare professional",
+      "text": "Even if the pain seems mild, a medical evaluation is essential for appropriate treatment."
+    },
+    "nutrition_care": {
+      "title": "Take care of nutrition",
+      "text": "Consume foods rich in protein, vitamin D and C to promote bone healing."
+    },
+    "prepare_rehabilitation": {
+      "title": "Prepare for rehabilitation",
+      "text": "Physiotherapy is often necessary. Follow medical advice carefully to regain your mobility."
+    }
+  },
+  "final_message": "📝 Good reflexes and quick reaction can make all the difference in case of fracture!",
+  
+  "malaise_title": "Discomfort",
+  "sections": {
+    "definition": {
+      "title": "Definition and signs",
+      "steps": {
+        "step1": "Discomfort is an unpleasant sensation indicating a malfunction of the body.",
+        "step2": "The victim is conscious but complains of unusual sensations or general discomfort."
+      }
+    },
+    "conduct": {
+      "title": "Course of action",
+      "steps": {
+        "step1": "Put the victim to rest in the position where they feel most comfortable.",
+        "step2": "Loosen clothing and reassure the victim.",
+        "step3": "Observe the signs and question the victim about their health condition.",
+        "step4": "Protect from cold or heat.",
+        "step5": "Give usual treatment or sugar if requested.",
+        "step6": "Call a doctor and follow their instructions.",
+        "step7": "Regularly monitor the victim's consciousness and breathing.",
+        "step8": "Do not give anything to drink if the victim is confused or drowsy.",
+        "step9": "Inform emergency services of medical history or ongoing treatments."
+      }
+    },
+    "alert_protection": {
+      "title": "Alert and Protection",
+      "steps": {
+        "step1": "Contact emergency services immediately at 911 (Emergency) and follow instructions.",
+        "step2": "Ensure your safety and that of the victim before intervening. Avoid any potential danger.",
+        "step3": "Perform emergency gestures if the victim loses consciousness."
+      }
+    }
+  },
+  
+  
+
+  "noyade_title": "Drowning",
+  "main_title": "Actions to take in case of drowning",
+  "steps_0": "Remove the victim from the water if possible, without endangering yourself.",
+  "steps_1": "Call emergency services immediately (101).",
+  "steps_2": "Check if the victim is breathing by clearing the airway.",
+  "steps_3": "If the victim is not breathing, start cardiopulmonary resuscitation (CPR).",
+  "steps_4": "Continue CPR until emergency services arrive or breathing resumes.",
+  "steps_5": "If available, cover the victim with an emergency blanket.",
+  "steps_6": "Note the exact time when the victim was removed from the water.",
+  "airway_titlee": "Airway Liberation",
+  "airway_content": "Place one hand on the victim’s forehead.\n• With the other hand, place your fingertips under the tip of the chin.\n• Gently tilt the head back while lifting the chin.",
+  "cpr_titlee": "Cardiopulmonary Resuscitation",
+  "cpr_content": "Chest compressions:\n- Place your hands in the center of the chest.\n- Keep arms straight, press hard (5 cm) and fast (100 to 120/min).\n- Release after each compression.\nMouth-to-mouth:\n- Tilt the head back, pinch the nose.\n- Give 2 breaths (the chest should rise).\nAlternate 30 compressions / 2 breaths.",
+
+  
+
+
+  
+  "page_title": "Loss of Consciousness",
+  "main_description": "🧠 React quickly to loss of consciousness.",
+  "definition_title": "Definition",
+  "definition_content": "A person is considered to have lost consciousness when they do not respond or react to any stimulus, but they are still breathing.",
+  "immediate_action_title": "Act Immediately",
+  "immediate_action_1": "Alert emergency services: 911 (EMS).",
+  "immediate_action_2": "If alone, start CPR before calling.",
+  "immediate_action_3": "Lay the victim on their back on a hard surface.",
+  "immediate_action_4": "Clear the airway: tilt the head back and lift the chin.",
+  "immediate_action_5": "Ensure your safety: never intervene by putting yourself in danger.",
+  "conduct_title": "What to Do",
+  "conduct_1": "Check for unresponsiveness: ask a simple question, gently shake the shoulders.",
+  "conduct_2": "Lay the victim on their back if they don't respond.",
+  "conduct_3": "Request or call emergency services.",
+  "conduct_4": "Clear the airway (see section below).",
+  "conduct_5": "Check breathing for a maximum of 10 seconds by leaning over the victim, with the rescuer's ear and cheek above the victim's mouth and nose to observe if the belly and chest rise, listen for any sounds caused by breathing, and feel any airflow during expiration",
+  "conduct_6": "- If breathing: place in recovery position (see section below).",
+  "conduct_7": "- If not breathing: doesn't speak and doesn't react (no chest or belly movement, no breath felt at nose or mouth), start CPR.",
+  "conduct_8": "Monitor breathing until emergency services arrive.",
+  "airway_title": "Airway Clearance",
+  "airway_1": "Place one hand on the victim's forehead.",
+  "airway_2": "With the other hand, place fingertips under the tip of the chin.",
+  "airway_3": "Tilt the head **slightly** back while lifting the chin.",
+  "pls_title": "Recovery Position",
+  "pls_1": "Kneel beside the victim lying on their back.",
+  "pls_2": "Place the nearest arm at a right angle, palm facing up.",
+  "pls_3": "Bring the other arm and place the back of the hand against their cheek, on the rescuer's side.",
+  "pls_4": "Grab the opposite leg behind the knee and bend it.",
+  "pls_5": "Gently pull on the bent leg to roll the victim toward you.",
+  "pls_6": "Adjust so the leg is at a right angle and the head is **stable** tilted back.",
+  "pls_7": "Mouth turned toward the ground to prevent choking.",
+  "pls_8": "Check breathing regularly.",
+  "pls_9": "If possible, position the victim on their left side.",
+  "cpr_title": "Cardiopulmonary Resuscitation",
+  "cpr_1": "Chest compressions:",
+  "cpr_2": "- Place hands in the center of the chest.",
+  "cpr_3": "- Arms straight, press hard (5 cm) and fast (100 to 120/min).",
+  "cpr_4": "- Release after each compression.",
+  "cpr_5": "Mouth-to-mouth:",
+  "cpr_6": "- Tilt the head, pinch the nose.",
+  "cpr_7": "- Give 2 breaths (the chest should rise).",
+  "cpr_8": "Alternate 30 compressions / 2 breaths.",
+  "aed_title": "Defibrillator (AED)",
+  "aed_1": "Use it as soon as it's available.",
+  "aed_2": "Follow the voice instructions.",
+  "aed_3": "Continue CPR between shocks.",
+  "dont_stop_title": "Don't Stop!",
+  "dont_stop_1": "Continue until emergency services arrive or the victim breathes.",
+  "dont_stop_2": "Every compression counts. Hang in there, you're amazing 💪.",
+  "hide_pls_video": "Hide Recovery Position Video",
+  "show_pls_video": "Show Recovery Position Video",
+  "start_cpr": "Start CPR",
+  "wounds_title": "Wounds",
+  "definition_1": "A wound is an opening in the skin.",
+  "definition_2": "It can be simple, deep, dirty, or contain a foreign object.",
+  "definition_3": "Some wounds can cause significant bleeding.",
+  "actions_title": "Actions to take",
+  "actions_1": "Wear gloves or protect yourself with a plastic bag.",
+  "actions_2": "Observe the wound without touching it directly.",
+  "actions_3": "Do not remove a foreign object stuck in the wound.",
+  "actions_4": "Compress with a clean cloth if it bleeds.",
+  "actions_5": "Lay the victim down if they feel unwell.",
+  "actions_6": "Alert emergency services if the wound is serious.",
+  "actions_7": "Monitor the victim until help arrives.",
+  "dont_do_title": "What not to do",
+  "dont_do_1": "Do not apply any product on the wound.",
+  "dont_do_2": "Do not try to clean a deep wound on site.",
+  "dont_do_3": "Do not directly compress a wound with an embedded object.",
+
+  
+  "bleeding_title": "Bleeding",
+  "bleeding_subtitle": "🩸 React effectively to a bleeding situation.",
+  "definition_contentt": "Bleeding is the flow of blood out of the blood vessels. It can be external (visible) or internal (not visible).",
+  "before_action_title": "Before Acting",
+  "alert_protection_title": "Alert and Protection",
+  "alert_protection_points": [
+    "Immediately alert emergency services: SAMU (101), Firefighters (118).",
+    "If you are alone and must call for help, quickly apply a temporary dressing if possible to free your hands.",
+    "If available, put on protective gloves.",
+    "Protect yourself!",
+    "Wash your hands thoroughly after the intervention.",
+    "Lay the victim down.",
+    "Monitor the victim's condition carefully.",
+    "Reassure the victim."
+  ],
+  "actions_titlee": "Actions in case of bleeding",
+  "direct_compression_title": "Direct Compression",
+  "direct_compression_points": [
+    "Apply direct pressure to the wound using a compress or clean cloth.",
+    "The cloth should completely cover the wound.",
+    "Replace your hand with a temporary dressing if necessary.",
+    "Use a wide band, long enough to wrap several times, and tight enough to maintain pressure."
+  ],
+  "tourniquet_title": "Tourniquet",
+  "tourniquet_points": [
+    "Use if direct compression is ineffective and the bleeding is very heavy.",
+    "Place the tourniquet between the wound and the heart.",
+    "Tighten until the bleeding stops completely.",
+    "Use an industrial tourniquet if available, following the manufacturer's instructions."
+  ],
+  "warning_text": "⚠️ These actions are first aid measures and do not replace certified training. Always call emergency services in serious situations.",
+
+  "app_bar": {
+    "title": "First Aid Kit"
+  },
+  "main": {
+    "title": "Your first aid kit",
+    "subtitle": "Scroll through the categories below"
+  },
+  "sectionss": {
+    "categories": "Categories:",
+    "kit_types": "Kit types:",
+    "first_aid_info": "First Aid Kit Info:",
+    "storage_tips": "Storage tips:"
+  },
+  "categories": {
+    "protection_hygiene": {
+      "title": "Protection & Hygiene",
+      "items": {
+        "disposable_gloves": "Disposable gloves (x2)",
+        "surgical_mask": "Surgical mask",
+        "sterile_compresses": "Sterile compresses",
+        "physiological_serum": "Physiological serum",
+        "skin_antiseptic": "Skin antiseptic"
+      }
+    },
+    "wound_care": {
+      "title": "Wound Care",
+      "items": {
+        "adhesive_bandages": "Adhesive bandages",
+        "elastic_bands": "Elastic bands",
+        "tape": "Medical tape",
+        "round_scissors": "Round-tip scissors",
+        "splinter_tweezers": "Splinter tweezers"
+      }
+    },
+    "comfort_monitoring": {
+      "title": "Comfort & Monitoring",
+      "items": {
+        "thermometer": "Thermometer",
+        "survival_blanket": "Survival blanket",
+        "instant_ice": "Instant ice pack"
+      }
+    },
+    "medications": {
+      "title": "Medications",
+      "items": {
+        "paracetamol": "Paracetamol",
+        "antihistamine": "Antihistamine",
+        "anti_diarrheal": "Anti-diarrheal",
+        "sro": "Orale Rehydration Solution"
+      }
+    },
+    "useful_documents": {
+      "title": "Useful Documents",
+      "items": {
+        "emergency_numbers": "Emergency numbers",
+        "kit_instructions": "Kit instructions",
+        "medical_record": "Medical record"
+      }
+    }
+  },
+  "kit_types": {
+    "baby_kit": {
+      "title": "Baby Kit",
+      "items": {
+        "thermometer": "Thermometer",
+        "child_doliprane": "Children's paracetamol",
+        "aspivenin": "Venom extractor",
+        "arnica_gel": "Arnica gel",
+        "cotton": "Cotton",
+        "elastic_band": "Elastic bandage",
+        "fun_bandages": "Sterile compresses / fun bandages",
+        "physiological_serum_ampoules": "Physiological serum ampoules",
+        "tweezers_scissors": "Tweezers and scissors",
+        "gentle_disinfectant": "Gentle disinfectant",
+        "scratch_itch_cream": "Scratch/itch cream",
+        "nearby_doctor_address": "Nearby doctor's address",
+        "rehydration_sachets": "Rehydration sachets",
+        "cold_protection_cream": "Cold protection cream",
+        "sunscreen": "Sunscreen",
+        "cooling_pack": "Cooling pack"
+      }
+    },
+    "home_kit": {
+      "title": "Home Kit",
+      "items": {
+        "disinfectant": "Disinfectant",
+        "bandages": "Bandages",
+        "compresses": "Compresses",
+        "tape": "Medical tape",
+        "scissors": "Scissors",
+        "tweezers": "Tweezers",
+        "thermometer": "Thermometer",
+        "painkiller": "Painkiller (Paracetamol)",
+        "antihistamine": "Antihistamine",
+        "disposable_gloves": "Disposable gloves"
+      }
+    },
+    "travel_kit": {
+      "title": "Travel Kit",
+      "items": {
+        "personal_medications": "Personal medications",
+        "anti_diarrheal": "Anti-diarrheal",
+        "anti_nausea": "Anti-nausea",
+        "sunscreen": "Sunscreen",
+        "mosquito_repellent": "Mosquito repellent",
+        "hand_sanitizer": "Hand sanitizer",
+        "blister_bandages": "Blister bandages",
+        "oral_rehydration_solution": "Oral rehydration solution"
+      }
+    },
+    "hiking_kit": {
+      "title": "Hiking Kit",
+      "items": {
+        "elastic_bandages": "Elastic bandages",
+        "special_bandages": "Special bandages (blisters)",
+        "disinfectant": "Disinfectant",
+        "emergency_whistle": "Emergency whistle",
+        "survival_blanket": "Survival blanket",
+        "water_purification_tablets": "Water purification tablets",
+        "anti_inflammatory": "Anti-inflammatory"
+      }
+    },
+    "business_kit": {
+      "title": "Business Kit",
+      "items": {
+        "standard_first_aid": "Standard first aid equipment",
+        "hydroalcoholic_gel": "Hand sanitizer gel",
+        "defibrillator": "Defibrillator (if relevant)",
+        "accident_register": "Accident register book",
+        "safety_instructions": "Safety instructions"
+      }
+    },
+    "construction_kit": {
+      "title": "Construction Kit",
+      "items": {
+        "reinforced_first_aid": "Reinforced first aid equipment",
+        "eye_wash": "Eye wash",
+        "high_resistance_bandages": "High-resistance bandages",
+        "splints": "Splints",
+        "tourniquet": "Tourniquet",
+        "burn_kit": "Burn kit"
+      }
+    }
+  },
+  "info_section": {
+    "title": "The essentials and their usefulness",
+    "minimum_necessary": "*Minimum necessary:*",
+    "antiseptic": "• Antiseptic (minor wounds)",
+    "hydrogel": "• Hydrogel (burns)",
+    "physiological_serum": "• Physiological serum (clean wounds/eyes)",
+    "adapt_content": "(Content to be adapted to your household and health)",
+    "what_is_it_for": "*What is it for?*",
+    "react_quickly": "React *quickly and effectively* to everyday accidents (home, sports, travel).",
+    "allows_to": "It allows you to: ",
+    "treat_wounds": "• Treat minor injuries/superficial burns.",
+    "compress_wounds": "• Compress serious injuries/hemorrhages while waiting for help.",
+    "face_hypothermia": "• Deal with hypothermia/hypoglycemic crisis."
+  },
+  "storage_tips": {
+    "accessible_location": "Keep the kit in an accessible location",
+    "check_expiration_dates": "Regularly check expiration dates",
+    "replenish_after_use": "Replenish missing items after use",
+    "avoid_heat_humidity": "Avoid exposure to heat and humidity",
+    "adapt_to_needs": "Adapt the kit according to needs (baby, allergy, etc.)"
+  }
+
+
+
+}

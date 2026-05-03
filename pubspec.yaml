@@ -1,0 +1,112 @@
+name: pfe
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  http: ^1.4.0
+  font_awesome_flutter: ^10.7.0
+  intl: ^0.20.2
+  provider: ^6.0.0
+  geolocator: ^14.0.1
+  permission_handler: ^12.0.0+1
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.0
+  web_socket_channel: ^3.0.3
+  url_launcher: ^6.1.10
+  carousel_slider: ^5.0.0
+  video_player: ^2.10.0
+  logger: ^2.0.2
+  cupertino_icons: ^1.0.8
+  lottie: ^3.3.1
+  flutter_map: 6.1.0
+  logging: ^1.2.0
+  latlong2: ^0.9.1
+  easy_localization: ^3.0.5
+  flutter_launcher_icons: ^0.13.1
+  dropdown_button2: ^2.3.9
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/img/PFE logo.png"
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  
+
+
+  assets:
+    - assets/OIP.jpeg
+    - assets/OIPp.jpeg
+    - assets/charger.jpeg
+
+    - assets/img/arret-cardiaque.jpg
+    - assets/img/brulures.jpg
+    - assets/img/etouffee.jpg
+    - assets/img/fracture.jpg
+    - assets/img/cardiaque.jpeg
+    - assets/img/Screenshot_13-4-2025_19303_.jpeg
+    - assets/img/Screenshot_13-4-2025_192953_.jpeg
+    - assets/img/soleil.jpeg
+    - assets/img/elect.jpeg
+    - assets/img/re.jpg
+
+    - assets/img/choc.jpg
+    - assets/img/hemo.jpeg
+    - assets/img/inco.jpeg
+    - assets/img/noyadee.jpg
+    - assets/img/malaise cardiaque.jpeg
+    - assets/img/gestearettt.jpeg
+    - assets/img/gesteare.jpeg
+    - assets/img/gestearet.jpeg
+    - assets/img/gestearett.jpeg
+    - assets/img/bru.jpeg
+    - assets/img/brru.jpeg
+    - assets/img/hémor.jpeg
+    - assets/img/hémoragie.jpeg
+    - assets/img/LVA.jpg
+    - assets/img/p1.jpg
+    - assets/img/p2.jpg
+    - assets/img/p3.jpg
+    - assets/img/p4.jpg
+    - assets/img/plaies.jpg
+
+    - assets/img/ett1.jpeg
+    - assets/img/ett2.jpeg
+    - assets/img/ett3.jpeg
+    - assets/img/ett4.jpeg
+    - assets/img/vtbrulure.jpeg
+    - assets/img/rs.jpeg
+    - assets/img/rs1.jpeg
+    - assets/img/rs2.jpeg
+    - assets/img/default_avatar.png
+    - assets/img/PFE logo.png
+
+    - assets/videos/DAE.mov
+    - assets/videos/etouffementbb.mov
+    - assets/videos/etouffementadulte.mov
+    - assets/videos/PLSS.mp4
+    - assets/videos/MSGCR.mp4
+    - assets/videos/maintienttete.mov
+
+
+    - assets/translations/
